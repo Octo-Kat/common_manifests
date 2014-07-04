@@ -5,11 +5,10 @@
            fetch="git://github.com/Octo-Kat/"
            revision="master" />
 
-  <project path=".repo/local_manifests" name="local_manifests" remote="ok" revision="master"/>
+  <!--project path=".repo/local_manifests" name="local_manifests" remote="ok" revision="master"/-->
   <project path=".repo/local_manifests/manifests" name="manifests" remote="ok" revision="master">
-    
-  <copyfile src="manifests/oct.xml" dest=".repo/local_manifests/oct.xml" />
-  <copyfile src="manifests/sam.xml" dest=".repo/local_manifests/sam.xml" />
+    <copyfile src="manifests/oct.xml" dest=".repo/local_manifests/oct.xml" />
+    <copyfile src="manifests/sam.xml" dest=".repo/local_manifests/sam.xml" />
   </project>
 
 </manifest>
