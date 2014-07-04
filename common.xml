@@ -6,10 +6,9 @@
            sync-c="true"
            sync-j="12" />
 
-  <project path=".repo/local_manifests" name="local_manifests" remote="ok" revision="master" >
+  <project path=".repo/local_manifests" name="local_manifests" remote="ok" revision="master" />
     <copyfile src="root/common.xml" dest=".repo/local_manifests/common.xml" />
     <copyfile src="manifests/oct.xml" dest=".repo/local_manifests/oct.xml" />
     <copyfile src="manifests/sam.xml" dest=".repo/local_manifests/sam.xml" />
-  </project>
 
 </manifest>
